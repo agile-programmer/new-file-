@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #2a2d33;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.wrapper p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #d9d9d9;
+    width: 876px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.Operations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    width: 1300px;
+    border: 15px solid transparent;
+    margin: auto;
+}
+
+.box {
+    font-size: 16px;
+    margin: 15px 30px;
+    border: 3px solid #fff;
+    width: 360px;
+    height: 355px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.box h2 {
+    width: 294px;
+    height: 36px;
+    font-size: 30px;
+    color: #FFFF;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.box p {
+    font-size: 18px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFF;
+    margin: 32px 0 0;
+}
+
+
+.footer {
+    background: #333333;
+    width: 1519px;
+}
+
+.foot p {
+    width: 417px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
